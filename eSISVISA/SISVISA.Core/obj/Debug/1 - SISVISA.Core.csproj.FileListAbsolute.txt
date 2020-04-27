@@ -1,0 +1,13 @@
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\bin\Debug\SISVISA.Core.dll
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\bin\Debug\SISVISA.Core.pdb
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\bin\Debug\Dapper.dll
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\bin\Debug\Dapper.xml
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\obj\Debug\SISVISA.Core.dll
+C:\xampp\htdocs\sisvisa\eSISVISA\SISVISA.Core\obj\Debug\SISVISA.Core.pdb
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\bin\Debug\SISVISA.Core.dll
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\bin\Debug\SISVISA.Core.pdb
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\bin\Debug\Dapper.dll
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\bin\Debug\Dapper.xml
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\obj\Debug\1 - SISVISA.Core.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\obj\Debug\SISVISA.Core.dll
+C:\inetpub\wwwroot\Sisvisa\eSISVISA\SISVISA.Core\obj\Debug\SISVISA.Core.pdb

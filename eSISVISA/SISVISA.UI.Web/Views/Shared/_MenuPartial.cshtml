@@ -1,0 +1,41 @@
+﻿<!-- Left side column. contains the sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="~/Content/dist/img/avatar5.png" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>@Session["txt_usuario"]</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+        </div>
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">Menu</li>
+            @{
+                if (Session["menu_aplicacao"] != null)
+                {
+                    List<SISVISA.Core.Models.Menu> listaMenu = (List<SISVISA.Core.Models.Menu>)Session["menu_aplicacao"];
+                    foreach (var item in listaMenu.Where(x => x.nr_pai == 0 && x.cod_menu > 1))
+                    {
+                        <li class="treeview">
+                            <a href = "@Url.Action(item.txt_acao, item.txt_controle) "> 
+                                <i class="@item.txt_icone"></i>@item.txt_nome                                                                                          
+                            </a>
+                            <ul class="treeview-menu">
+                                @foreach (var item2 in listaMenu.Where(x => x.nr_pai == item.cod_menu))
+                                {
+                                    <li><a href="@Url.Action(item2.txt_acao, item2.txt_controle)"><i class="@item2.txt_icone"></i>@item2.txt_nome</a></li>
+                                }                                                               
+                            </ul>
+                        </li>
+                    }
+                }            
+            }            
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>

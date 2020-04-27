@@ -1,0 +1,75 @@
+﻿@model SISVISA.Core.Models.Usuario
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.txt_usuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.txt_usuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.txt_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.txt_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.txt_login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.txt_login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.txt_senha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.txt_senha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cod_ativo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cod_ativo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mensagem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mensagem)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cod_usuario }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
